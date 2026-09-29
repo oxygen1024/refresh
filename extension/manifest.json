@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh",
+  "version": "1.0.0",
+  "description": "Automatically reload the current tab every few seconds (down to 0.1s).",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    { "matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_start" }
+  ],
+  "action": { "default_popup": "popup.html", "default_title": "Auto Refresh" }
+}
