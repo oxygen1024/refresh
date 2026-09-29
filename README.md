@@ -9,7 +9,7 @@ A small Chrome / Edge extension that reloads the current tab automatically, for 
 1. Download this repo (Code → Download ZIP) and unzip it. 下載呢個 repo 再解壓。
 2. Open `chrome://extensions` (Edge: `edge://extensions`). 開 `chrome://extensions`。
 3. Turn on **Developer mode**. 開啟右上角「開發人員模式」。
-4. Click **Load unpacked** and choose the `extension` folder. 撳「載入未封裝項目」，揀 `extension` 資料夾。
+4. Click **Load unpacked** and choose the unzipped folder (the one containing `manifest.json`). 撳「載入未封裝項目」，揀解壓後有 `manifest.json` 嘅資料夾。
 
 ## 使用 Use
 
